@@ -55,7 +55,7 @@ class GetLongListView extends StatelessWidget{
   Widget build(BuildContext context) {
 
     var listItems = getDataList();
-    return ListView.builder(
+    return ListView.builder( // ListView.builder is very important for long listview
         itemBuilder: (contex, index){
 
           return ListTile(
